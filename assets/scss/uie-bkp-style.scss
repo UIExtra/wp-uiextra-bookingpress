@@ -1,0 +1,40 @@
+.uie-bkp {
+    &-service {
+        list-style: none;
+        background: #fff;
+        border: 1px solid #efefef;
+        border-radius: 6px;
+        margin-bottom: 15px;
+        &-container {
+            margin: 0 !important;
+        }
+        &__title {
+            font-size: 1.6em;
+            padding: 10px 15px;
+            margin: 0;
+        }
+        &__desc {
+            margin-bottom: 12px;
+            padding: 0 15px;
+        }
+        &__detail {
+            display: flex;
+            justify-content: space-between;
+            transition: all 0.3s ease-in-out;
+            align-items: center;
+            line-height: 1.3;
+            padding-left: 15px;
+            &:hover {
+                background: #efefef;
+            }
+        }
+        & .uie-button {
+            display: inline-block;
+            padding: 5px 15px;
+            &:hover {
+                background: #444;
+                color: #fff;
+            }
+        }
+    }
+}
